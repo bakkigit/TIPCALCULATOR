@@ -1,0 +1,41 @@
+
+.tekst{
+    display: grid;
+    justify-content: center;
+}
+
+.container{
+    background-color: orange;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1,1fr);
+    border: 5px solid greenyellow;
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    align-items: center;
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+}
+
+.container div p{
+    margin-right: 10px;
+}
+
+input{
+    height: 25px;
+    margin-top: 10px;
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    border: 2px solid red;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: black;
+}
